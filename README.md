@@ -1,3 +1,5 @@
+> 本專案的 DGX Spark（GB10／Linux ARM64）部署入口：[繁體中文安裝與訓練說明](docs/zh/local-project/DGX_Spark.md)。
+
 <h1 align="center">ACE-Step 1.5</h1>
 <h1 align="center">Pushing the Boundaries of Open-Source Music Generation</h1>
 <p align="center">

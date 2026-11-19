@@ -96,7 +96,9 @@ def create_music_library(output_dir: str, demo=None, tab=None) -> None:
         return tuple(updates)
 
     def open_output_folder():
-        """Open only the fixed output directory on this local Windows computer."""
+        """Show the server path remotely, or open the local Windows folder."""
+        if os.name != "nt":
+            return f"音樂位於 Spark 主機：{root}。可在網頁下載，或透過 SFTP 取得。"
         try:
             os.startfile(str(root))
         except OSError as exc:

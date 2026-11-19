@@ -2,6 +2,8 @@
 
 import ctypes
 import os
+import shutil
+import subprocess
 from pathlib import Path
 from ctypes import wintypes
 
@@ -41,7 +43,11 @@ def recycle_output_contents(root: Path) -> str:
 def recycle_files(paths: list[Path]) -> None:
     """Ask the Windows shell to recycle explicit files; surface cancellation/errors."""
     if os.name != "nt":
-        raise OSError("一鍵清空目前只支援 Windows 資源回收筒。")
+        gio = shutil.which("gio")
+        if not gio:
+            raise OSError("此主機缺少回收筒工具，請安裝 libglib2.0-bin 後再試。")
+        subprocess.run([gio, "trash", "--", *(str(p) for p in paths)], check=True)
+        return
 
     class FileOperation(ctypes.Structure):
         _fields_ = [
