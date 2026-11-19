@@ -17,14 +17,17 @@ ADAPTER = Path(__file__).resolve().parents[4] / "training/my_piano/lora/final"
 
 
 def prepare_piano(handler, caption: str, seconds: int) -> dict:
-    """Load the trained adapter and return explicit generation settings or fail clearly."""
-    if not (ADAPTER / "adapter_model.safetensors").is_file():
-        raise gr.Error("找不到鋼琴模型，請確認訓練模型資料夾仍存在。")
-    activate_adapter(handler, ADAPTER, "quick_piano")
+    """Use the piano adapter when installed, otherwise disable LoRA for base inference."""
+    available = (ADAPTER / "adapter_model.safetensors").is_file()
+    if available:
+        activate_adapter(handler, ADAPTER, "quick_piano")
+    else:
+        handler.set_use_lora(False)
     settings = piano_settings()
     settings["captions"] = caption.strip() or settings["captions"]
     settings["audio_duration"] = int(seconds)
-    settings.update(lora_path=str(ADAPTER), use_lora_checkbox=True, lora_scale_slider=1.0)
+    settings.update(lora_path=str(ADAPTER) if available else "", use_lora_checkbox=available,
+                    lora_scale_slider=1.0 if available else 0.0)
     return settings
 
 
@@ -84,7 +87,9 @@ def wire_quick_inputs(quick: dict, components: dict, handler, llm_handler=None):
         except (ValueError, TypeError, OverflowError) as exc:
             raise gr.Error(str(exc)) from exc
         if instrument == PIANO:
-            settings, mode = prepare_piano(handler, caption, seconds), "鋼琴微調模型"
+            settings = prepare_piano(handler, caption, seconds)
+            mode = "鋼琴微調模型" if settings["use_lora_checkbox"] else (
+                "原始模型生成鋼琴（本機未安裝鋼琴 LoRA）")
         elif instrument == TONGUE:
             caption = bowl_caption(caption)
             settings, mode = prepare_tongue(handler, caption, seconds)

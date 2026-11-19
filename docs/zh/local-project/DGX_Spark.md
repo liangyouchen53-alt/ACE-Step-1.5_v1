@@ -40,7 +40,7 @@ GitHub 不包含模型、原始音訊、切片或張量。請透過 SFTP／scp �
 - `training/singing_bowl_manual/`：若要沿用已處理的資料，搬移此目錄的 `clips/`、JSON 與 `tensors/`；原始 MP3 另在 `training/singing_bowl_new_sources/manual/`。
 - `checkpoints/`：可搬移現有底座權重，或在 Spark 重新下載。
 
-請勿公開尚未確認授權的手動下載素材。沒有搬移鋼琴 LoRA 時，鋼琴快捷會提示找不到模型；頌缽則依現有流程退回底座並顯示狀態。
+請勿公開尚未確認授權的手動下載素材。沒有搬移鋼琴或頌缽 LoRA 時，快捷流程會關閉先前 LoRA，使用原始模型並顯示狀態；仍可依提示詞生成。
 
 ## 頌缽訓練
 

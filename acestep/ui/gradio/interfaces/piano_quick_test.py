@@ -25,12 +25,21 @@ class QuickPianoTests(unittest.TestCase):
         self.assertIn("piano", prepare_piano(handler, "", 30)["captions"])
 
     def test_failure_is_visible(self):
-        with patch("pathlib.Path.is_file", return_value=False), self.assertRaises(gr.Error):
-            prepare_piano(MagicMock(), "", 30)
         handler = MagicMock(lora_loaded=False)
         handler.add_lora.return_value = "❌ Failed"
         with self.assertRaises(gr.Error):
             prepare_piano(handler, "", 30)
+
+    @patch("pathlib.Path.is_file", return_value=False)
+    def test_missing_adapter_uses_base_and_disables_previous_lora(self, exists):
+        handler = MagicMock()
+        settings = prepare_piano(handler, "平靜鋼琴", 30)
+        handler.set_use_lora.assert_called_once_with(False)
+        handler.add_lora.assert_not_called()
+        self.assertFalse(settings["use_lora_checkbox"])
+        self.assertEqual(settings["lora_path"], "")
+        self.assertEqual(settings["lora_scale_slider"], 0)
+        self.assertEqual(settings["captions"], "平靜鋼琴")
 
 
 if __name__ == "__main__":
