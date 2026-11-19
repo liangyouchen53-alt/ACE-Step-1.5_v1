@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "train": 188,
+    "heldout": 6
+  },
+  "all_audio_valid": true,
+  "all_tensors_finite": true,
+  "tensor_membership_verified": true,
+  "training_started": false
+}

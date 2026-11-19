@@ -1,0 +1,54 @@
+[
+  {
+    "id": "573805",
+    "author": "hollandm",
+    "split": "train",
+    "page": "https://freesound.org/people/hollandm/sounds/573805/",
+    "download_url": "https://cdn.freesound.org/previews/573/573805_5309408-hq.mp3",
+    "license": "CC0-1.0",
+    "file": "sources\\573805.mp3",
+    "format": "lossy HQ MP3 preview",
+    "seconds": 127.0,
+    "sample_rate": 44100,
+    "sha256": "8c20131e8d13dba8fc28442d165d24464dfb4625f8a7b35c2fa843245b23f5d7"
+  },
+  {
+    "id": "439235",
+    "author": "zambolino",
+    "split": "heldout",
+    "page": "https://freesound.org/people/zambolino/sounds/439235/",
+    "download_url": "https://cdn.freesound.org/previews/439/439235_2557312-hq.mp3",
+    "license": "CC0-1.0",
+    "file": "sources\\439235.mp3",
+    "format": "lossy HQ MP3 preview",
+    "seconds": 35.56258503401361,
+    "sample_rate": 44100,
+    "sha256": "571f688256be24db580c380ffe3ec7f901b7760068ddf03fdf224b0dcfe4b63d"
+  },
+  {
+    "id": "521549",
+    "author": "BuddhasSoundOfSilence",
+    "split": "train",
+    "page": "https://freesound.org/people/BuddhasSoundOfSilence/sounds/521549/",
+    "download_url": "https://cdn.freesound.org/previews/521/521549_6549662-hq.mp3",
+    "license": "CC0-1.0",
+    "file": "sources\\521549.mp3",
+    "format": "lossy HQ MP3 preview",
+    "seconds": 56.14997732426304,
+    "sample_rate": 44100,
+    "sha256": "b23ba3875e98b16e4259818030921eec0c2e113df6bd256c709c60f8e0210670"
+  },
+  {
+    "id": "161478",
+    "author": "phluidbox",
+    "split": "train",
+    "page": "https://freesound.org/people/phluidbox/sounds/161478/",
+    "download_url": "https://cdn.freesound.org/previews/161/161478_2908654-hq.mp3",
+    "license": "CC0-1.0",
+    "file": "sources\\161478.mp3",
+    "format": "lossy HQ MP3 preview",
+    "seconds": 109.40141666666666,
+    "sample_rate": 48000,
+    "sha256": "a2725a17ed58ea3215bc96c07f1adecbf9936cfeebcfdf8289559bcd26c8e2ee"
+  }
+]

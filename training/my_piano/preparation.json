@@ -1,0 +1,10 @@
+{
+  "source_recordings": 31,
+  "train_clips": 229,
+  "train_minutes": 76.33333333333333,
+  "heldout_clips": 12,
+  "sample_rate": 48000,
+  "clip_seconds": 20,
+  "rejected_windows": [],
+  "training_started": false
+}

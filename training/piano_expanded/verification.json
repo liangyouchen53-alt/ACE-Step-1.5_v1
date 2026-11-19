@@ -1,0 +1,13 @@
+{
+  "adapter_bytes": 11058880,
+  "adapter_sha256": "5a877f308c9a76e18e4f0852f381cc9bb95af2ffb66f81d4a9f7aef946c19404",
+  "tensor_count": 384,
+  "nonzero_B_tensors": 192,
+  "all_adapter_values_finite": true,
+  "epochs": 6,
+  "optimizer_steps": 144,
+  "checkpoints": 6,
+  "train_heldout_membership_verified": true,
+  "old_adapter_unchanged": true,
+  "quality_improvement_proven": false
+}

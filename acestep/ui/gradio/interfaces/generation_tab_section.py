@@ -1,5 +1,6 @@
 """Generation-tab section orchestrator for the Gradio interface."""
 
+import os
 from typing import Any
 
 import gradio as gr
@@ -65,7 +66,9 @@ def create_generation_tab_section(
     )
     initial_mode_choices = GENERATION_MODES_BASE if is_pure_base_model else GENERATION_MODES_TURBO
 
-    with gr.Group():
+    compact = os.environ.get("ACESTEP_GENERATION_ONLY", "false").lower() in {"true", "1", "yes"}
+    container = gr.Accordion("進階生成設定（需要時再展開）", open=False) if compact else gr.Group()
+    with container:
         mode_controls = build_mode_selector_controls(initial_mode_choices)
         hidden_state_controls = build_hidden_generation_state()
         simple_mode_controls = build_simple_mode_controls()
@@ -82,6 +85,7 @@ def create_generation_tab_section(
             default_batch_size=default_batch_size,
             service_mode=service_mode,
         )
+
         generate_controls = build_generate_row_controls(
             service_pre_initialized=service_pre_initialized,
             init_params=init_params,

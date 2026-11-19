@@ -21,7 +21,11 @@ Layout:
   │  └───────────────┴────────────────┘  │
   └──────────────────────────────────────┘
 """
+import os
+
 import gradio as gr
+from .music_library import create_music_library
+from .music_studio_style import CSS as STUDIO_CSS, HEADER as STUDIO_HEADER
 from acestep.ui.gradio.i18n import get_i18n, t
 from acestep.ui.gradio.interfaces.dataset import create_dataset_section
 from acestep.ui.gradio.interfaces.generation import (
@@ -61,10 +65,12 @@ def create_gradio_interface(dit_handler, llm_handler, dataset_handler, init_para
     
     # Check if running in service mode (hide training tab)
     service_mode = init_params is not None and init_params.get('service_mode', False)
+    generation_only = os.environ.get('ACESTEP_GENERATION_ONLY', 'false').lower() in {'true', '1', 'yes'}
     
     with gr.Blocks(
-        title=t("app.title"),
-        theme=gr.themes.Soft(),
+        title="個人化音樂工作室" if generation_only else t("app.title"),
+        theme=(gr.themes.Soft(primary_hue="teal", secondary_hue="slate", neutral_hue="slate")
+               if generation_only else gr.themes.Soft()),
         head=get_audio_player_preferences_head() + ("" if service_mode else get_user_preferences_head()) + """
         <script>
         /* Flip tooltips upward when they would overflow the viewport bottom.
@@ -310,10 +316,10 @@ def create_gradio_interface(dit_handler, llm_handler, dataset_handler, init_para
             width: 13px !important;
             height: 13px !important;
         }
-        """ + HELP_MODAL_CSS,
+        """ + HELP_MODAL_CSS + (STUDIO_CSS if generation_only else ""),
     ) as demo:
         
-        gr.HTML(f"""
+        gr.HTML(STUDIO_HEADER if generation_only else f"""
         <div class="main-header">
             <h1>{t("app.title")}</h1>
             <p>{t("app.subtitle")}</p>
@@ -322,7 +328,7 @@ def create_gradio_interface(dit_handler, llm_handler, dataset_handler, init_para
         create_help_button("getting_started")
         
         # Dataset Explorer Section (hidden)
-        dataset_section = create_dataset_section(dataset_handler)
+        dataset_section = {} if generation_only else create_dataset_section(dataset_handler)
         
         # ═══════════════════════════════════════════
         # Top-level: Settings (contains Service Config + Advanced Settings)
@@ -337,21 +343,41 @@ def create_gradio_interface(dit_handler, llm_handler, dataset_handler, init_para
         with gr.Tabs():
             # --- Generation Tab ---
             with gr.Tab(t("generation.tab_title")):
-                gen_section = create_generation_tab_section(
-                    dit_handler, llm_handler, init_params=init_params, language=language
-                )
-                
-                # Results Section (inside the Generation tab, wrapped for visibility control)
-                with gr.Column(visible=True) as results_wrapper:
-                    results_section = create_results_section(dit_handler)
-                # Store the wrapper in gen_section so event handlers can toggle it
+                if generation_only:
+                    from .piano_quick import create_quick_inputs, wire_quick_inputs
+
+                    with gr.Row(elem_id="music-workspace", equal_height=False):
+                        with gr.Column(scale=5, min_width=340, elem_id="music-input-panel"):
+                            quick_piano = create_quick_inputs()
+                            gen_section = create_generation_tab_section(
+                                dit_handler, llm_handler, init_params=init_params, language=language
+                            )
+                            gen_section["quick_generate_event"] = wire_quick_inputs(
+                                quick_piano, {**settings_section, **gen_section},
+                                dit_handler, llm_handler)
+                        with gr.Column(scale=6, min_width=380, elem_id="music-output-panel"):
+                            with gr.Column(visible=True) as results_wrapper:
+                                results_section = create_results_section(dit_handler)
+                else:
+                    gen_section = create_generation_tab_section(
+                        dit_handler, llm_handler, init_params=init_params, language=language
+                    )
+                    with gr.Column(visible=True) as results_wrapper:
+                        results_section = create_results_section(dit_handler)
                 gen_section["results_wrapper"] = results_wrapper
             
             # --- Training Tab ---
-            with gr.Tab(t("training.tab_title"), visible=not service_mode):
-                training_section = create_training_section(
-                    dit_handler, llm_handler, init_params=init_params
-                )
+            if not generation_only:
+                with gr.Tab(t("training.tab_title"), visible=not service_mode):
+                    training_section = create_training_section(
+                        dit_handler, llm_handler, init_params=init_params
+                    )
+            else:
+                with gr.Tab("📂 我的音樂") as music_tab:
+                    create_music_library(
+                        (init_params or {}).get("output_dir", "gradio_outputs"),
+                        demo=demo, tab=music_tab,
+                    )
         
         # ═══════════════════════════════════════════
         # Merge all generation-related component dicts for event wiring
@@ -369,7 +395,8 @@ def create_gradio_interface(dit_handler, llm_handler, dataset_handler, init_para
         )
         
         # Connect training event handlers
-        setup_training_event_handlers(demo, dit_handler, llm_handler, training_section)
+        if not generation_only:
+            setup_training_event_handlers(demo, dit_handler, llm_handler, training_section)
 
         # Restore user preferences from browser localStorage on page load.
         # In service mode, skip restore so localStorage cannot override

@@ -1,0 +1,7 @@
+MAESTRO v3.0.0, Google LLC; International Piano-e-Competition performances.
+Dataset: https://magenta.withgoogle.com/datasets/maestro
+License: CC BY-NC-SA 4.0 (noncommercial; attribution; share-alike).
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+Citation: Hawthorne et al., Enabling Factorized Piano Music Modeling and Generation with the MAESTRO Dataset, ICLR 2019.
+Pilot clips are excerpts; sources.json and clips.json preserve provenance.
+This pilot is for local noncommercial research; no commercial clearance is claimed.

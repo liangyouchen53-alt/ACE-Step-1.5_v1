@@ -1,0 +1,22 @@
+[
+  {
+    "seed": 20261117,
+    "model": "pilot",
+    "mean_absolute_waveform_difference": 0.0041284925354851615
+  },
+  {
+    "seed": 20261117,
+    "model": "expanded",
+    "mean_absolute_waveform_difference": 0.011524848885006374
+  },
+  {
+    "seed": 20261118,
+    "model": "pilot",
+    "mean_absolute_waveform_difference": 0.001429081842634413
+  },
+  {
+    "seed": 20261118,
+    "model": "expanded",
+    "mean_absolute_waveform_difference": 0.010705994669596354
+  }
+]

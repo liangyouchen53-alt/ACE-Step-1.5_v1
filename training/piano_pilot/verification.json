@@ -1,0 +1,35 @@
+{
+  "training_clips": 24,
+  "heldout_clips": 4,
+  "clip_seconds": 10,
+  "recording_split_disjoint": true,
+  "base_model": "acestep-v15-turbo",
+  "adapter_path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\training\\piano_pilot\\lora\\final\\adapter_model.safetensors",
+  "adapter_bytes": 11058880,
+  "adapter_sha256": "831d41fa663cd585491e875948a507b286038fe54dcee6aa2cd7c9dfe05d32a2",
+  "all_adapter_values_finite": true,
+  "nonzero_B_tensors": 192,
+  "completed_epochs": 4,
+  "optimizer_steps": 24,
+  "checkpoint_count": 4,
+  "optimizer_state_saved": true,
+  "scheduler_state_saved": true,
+  "quality_assessment": "Not established. Heldout audio is excluded from training but no heldout loss or listening evaluation was performed.",
+  "comparison": {
+    "baseline": {
+      "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\piano_pilot_comparison\\baseline\\b78e9884-1400-0106-bb8c-4caa23cf2427.wav",
+      "seconds": 30.0,
+      "sample_rate": 48000,
+      "finite": true,
+      "rms": 0.07150871329634076
+    },
+    "lora": {
+      "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\piano_pilot_comparison\\lora\\21e0566e-b19d-f7a1-e503-61e1dbd50395.wav",
+      "seconds": 30.0,
+      "sample_rate": 48000,
+      "finite": true,
+      "rms": 0.07540905394256604
+    },
+    "limitations": "Short pilot only. Audio validity does not prove better quality, calm mood or absence of vocals. Listen to both samples."
+  }
+}

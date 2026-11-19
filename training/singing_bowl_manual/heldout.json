@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "name": "manual_bowls_heldout",
+    "all_instrumental": true,
+    "genre_ratio": 0
+  },
+  "samples": [
+    {
+      "audio_path": "clips\\heldout\\bowl_b66773c54c3a_00000.wav",
+      "caption": "Singing bowl meditation, resonant bowl tones and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\heldout\\bowl_b66773c54c3a_00020.wav",
+      "caption": "Singing bowl meditation, resonant bowl tones and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\heldout\\bowl_b66773c54c3a_00040.wav",
+      "caption": "Singing bowl meditation, resonant bowl tones and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\heldout\\bowl_b66773c54c3a_00060.wav",
+      "caption": "Singing bowl meditation, resonant bowl tones and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\heldout\\bowl_b66773c54c3a_00080.wav",
+      "caption": "Singing bowl meditation, resonant bowl tones and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\heldout\\bowl_b66773c54c3a_00100.wav",
+      "caption": "Singing bowl meditation, resonant bowl tones and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    }
+  ]
+}

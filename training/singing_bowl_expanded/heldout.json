@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "singing_bowl_pilot_heldout",
+    "all_instrumental": true,
+    "genre_ratio": 0
+  },
+  "samples": [
+    {
+      "audio_path": "clips\\heldout\\td_439235_0000.wav",
+      "caption": "Solo singing bowl, struck and rubbed metal bowl, sustained harmonic resonance and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    }
+  ]
+}

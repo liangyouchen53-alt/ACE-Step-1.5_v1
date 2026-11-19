@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "name": "maestro_piano_pilot",
+    "all_instrumental": true,
+    "genre_ratio": 0
+  },
+  "samples": [
+    {
+      "audio_path": "clips\\train\\maestro_45_00.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_45_01.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_45_02.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_45_03.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_45_04.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_45_05.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_45_06.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_45_07.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_75_00.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_75_01.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_75_02.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_75_03.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_75_04.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_75_05.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_75_06.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_75_07.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_626_00.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_626_01.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_626_02.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_626_03.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_626_04.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_626_05.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_626_06.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\maestro_626_07.wav",
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 10,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    }
+  ]
+}

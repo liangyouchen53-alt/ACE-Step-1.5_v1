@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "name": "singing_bowl_pilot_train",
+    "all_instrumental": true,
+    "genre_ratio": 0
+  },
+  "samples": [
+    {
+      "audio_path": "clips\\train\\td_573805_0000.wav",
+      "caption": "Solo singing bowl, struck and rubbed metal bowl, sustained harmonic resonance and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\td_573805_0020.wav",
+      "caption": "Solo singing bowl, struck and rubbed metal bowl, sustained harmonic resonance and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\td_573805_0040.wav",
+      "caption": "Solo singing bowl, struck and rubbed metal bowl, sustained harmonic resonance and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\td_573805_0060.wav",
+      "caption": "Solo singing bowl, struck and rubbed metal bowl, sustained harmonic resonance and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\td_573805_0080.wav",
+      "caption": "Solo singing bowl, struck and rubbed metal bowl, sustained harmonic resonance and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    },
+    {
+      "audio_path": "clips\\train\\td_573805_0100.wav",
+      "caption": "Solo singing bowl, struck and rubbed metal bowl, sustained harmonic resonance and natural decay.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": ""
+    }
+  ]
+}

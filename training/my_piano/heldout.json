@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "name": "goldberg_full_heldout",
+    "all_instrumental": true,
+    "genre_ratio": 0
+  },
+  "samples": [
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\maestro_74_00.wav"
+    },
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\maestro_74_01.wav"
+    },
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\maestro_74_02.wav"
+    },
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\maestro_74_03.wav"
+    },
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\smd_Beethoven_Op031No2-02_00.wav"
+    },
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\smd_Beethoven_Op031No2-02_01.wav"
+    },
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\smd_Beethoven_Op031No2-02_02.wav"
+    },
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\smd_Beethoven_Op031No2-02_03.wav"
+    },
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\smd_Bach_BWV849-01_00.wav"
+    },
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\smd_Bach_BWV849-01_01.wav"
+    },
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\smd_Bach_BWV849-01_02.wav"
+    },
+    {
+      "caption": "Solo acoustic piano, classical piano performance, no vocals, no other instruments.",
+      "lyrics": "[Instrumental]",
+      "is_instrumental": true,
+      "duration": 20,
+      "language": "unknown",
+      "bpm": null,
+      "keyscale": "",
+      "timesignature": "",
+      "audio_path": "clips\\heldout\\smd_Bach_BWV849-01_03.wav"
+    }
+  ]
+}

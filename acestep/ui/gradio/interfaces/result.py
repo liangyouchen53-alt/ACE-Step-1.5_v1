@@ -2,6 +2,7 @@
 Gradio UI Results Section Module
 Contains results display section component definitions
 """
+import os
 import gradio as gr
 from acestep.ui.gradio.i18n import t
 from acestep.ui.gradio.help_content import create_help_button
@@ -96,6 +97,7 @@ def _create_audio_column(n, visible=True):
 
 def create_results_section(dit_handler) -> dict:
     """Create results display section"""
+    compact = os.environ.get("ACESTEP_GENERATION_ONLY", "false").lower() in {"true", "1", "yes"}
     with gr.Accordion(t("results.title"), open=True):
         create_help_button("results")
         # Hidden state to store LM-generated metadata
@@ -115,7 +117,7 @@ def create_results_section(dit_handler) -> dict:
         with gr.Row():
             cols_1_4 = []
             for i in range(1, 5):
-                cols_1_4.append(_create_audio_column(i, visible=(i <= 2)))
+                cols_1_4.append(_create_audio_column(i, visible=(i <= (1 if compact else 2))))
         
         # Row 2: samples 5-8 (initially hidden)
         with gr.Row(visible=False) as audio_row_5_8:
@@ -153,7 +155,7 @@ def create_results_section(dit_handler) -> dict:
             variant="secondary", interactive=False, size="sm"
         )
         
-        with gr.Accordion(t("results.batch_results_title"), open=True):
+        with gr.Accordion(t("results.batch_results_title"), open=not compact):
             generated_audio_batch = gr.File(
                 label=t("results.all_files_label"),
                 file_count="multiple", interactive=False

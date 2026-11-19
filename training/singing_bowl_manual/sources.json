@@ -1,0 +1,222 @@
+[
+  {
+    "id": "b522f561196f",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\49980593-singing_bowl-333759.mp3",
+    "author_from_filename": "49980593",
+    "sha256": "b522f561196fcfa9135c04db786878f5273d3d76634862ef7e58f5f859833a32",
+    "seconds": 297.43020408163267,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "c4fdd6b0da2e",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\berrydeep-healing-bowl-563776.mp3",
+    "author_from_filename": "berrydeep",
+    "sha256": "c4fdd6b0da2e54664a504c016e7c5161dc15a1750d381c7253c7dcbe3db791fb",
+    "seconds": 420.1534693877551,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "b66773c54c3a",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\kalsstockmedia-tibetan-singing-bowls-sound-361263.mp3",
+    "author_from_filename": "kalsstockmedia",
+    "sha256": "b66773c54c3ae8b546f21d4967a1328bd1dea469a4a4103741a4c556fddbd9ab",
+    "seconds": 127.56,
+    "split": "heldout",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "0747a399dc13",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\leberch-tibetan-bowls-590445.mp3",
+    "author_from_filename": "leberch",
+    "sha256": "0747a399dc13449ebb3ea03c14fa4958de9b5c46df4f53efefac1e8a66148c74",
+    "seconds": 482.03755102040816,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "d371e8e7abdd",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\luceris-singing-bowls-590447.mp3",
+    "author_from_filename": "luceris",
+    "sha256": "d371e8e7abddbd3f3528c07d911ca1dafa15f4dc7a62c23a02f98e6c2677a6a6",
+    "seconds": 180.03591836734694,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "ec614f76b132",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-awakening-spirit-tibetan-singing-bowl-calm-384689.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "ec614f76b132f7dac2d509fd407955404fa3c7565f259133dea25d429cc632a4",
+    "seconds": 190.66775510204081,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "008608b5423f",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-deep-healing-tibetan-bowl-frequencies-384704.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "008608b5423fd0c84427962d16be3fb4c6f819de3b3ea3566e7ddbfc30e2ed16",
+    "seconds": 123.06285714285714,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "51efc40c7ed4",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-healing-himalayan-bowl-resonance-388643.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "51efc40c7ed49360dc5b989e2d8d46e8c71703ea73112e0f918f21f50c595708",
+    "seconds": 144.50938775510204,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "0cdd5e053a50",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-healing-tibetan-bowl-therapy-sound-bath-384688.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "0cdd5e053a5069355adab0844605936ef90fc2cff995cd0bc87dfe2d0113ff01",
+    "seconds": 190.66775510204081,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "0ef1b200a47e",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-inner-peace-tibetan-singing-bowls-384701.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "0ef1b200a47ebd963ba5da29e922e00c57f0060b847defabaebc8ca630ad09e7",
+    "seconds": 206.26285714285714,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "ab61ba8a916a",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-pure-tone-tibetan-singing-bowl-meditation-by-meditative-tiger-432231.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "ab61ba8a916a994749fb6aca8ed4705f9d047dca04b536aa0f9362294ff48c51",
+    "seconds": 164.59755102040816,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "1012c6c85dde",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-sacred-tibetan-bowl-ceremony-388644.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "1012c6c85ddea4f964b257c3798f840ec6553ac8c774d7fe781faa3f8ea0f014",
+    "seconds": 144.50938775510204,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "8bba517b314e",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-silent-sanctuary-tibetan-singing-bowls-384687.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "8bba517b314ecb458cabb5f4567ce18411bf83461c8130bbf7fc59bc04df291d",
+    "seconds": 176.48326530612246,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "697ff4dc4eb4",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-soothing-meditation-tibetan-bowl-bliss-384691.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "697ff4dc4eb489c313a99b289a024e5b4eacf7b5daad9ad07f59d02108a29a60",
+    "seconds": 182.54367346938776,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "1e07192a005f",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-spirit-cleanse-tibetan-singing-bowl-tones-384702.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "1e07192a005f0e4e662c96351be2cdacf6df611b5fee7adefb6496c43af29b03",
+    "seconds": 161.14938775510205,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "1dbabe9aa8a1",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-tibetan-singing-bowl-deep-meditation-388642.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "1dbabe9aa8a168cdde1b4f9a2bb0f470d2f5ffc152d651bee6ddd8fe56c9931e",
+    "seconds": 144.50938775510204,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "1194581cced4",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-tibetan-singing-bowl-relaxation-journey-384707.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "1194581cced47fcb1cf8759c58d5cf0d911735b5860c2b0755b37e01266b8892",
+    "seconds": 150.83102040816325,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "bcffcb468c5e",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-tibetan-singing-bowls-sound-bath-anxiety-amp-stress-relief-535923.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "bcffcb468c5e43182182cbb549e115dae38daee65c8f1f52848f93f582a8b846",
+    "seconds": 150.51755102040818,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "6c780208b604",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-tranquil-mind-tibetan-singing-bowl-sounds-384705.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "6c780208b604d88f283ff3e0b8cb5570e99d377780273dfd671cd28fa784d1fb",
+    "seconds": 152.79020408163265,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "aea0752d300a",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-tranquility-space-tibetan-singing-bowl-384692.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "aea0752d300a4ebabb69df30e7fb0ca4793c9144a314f0667b768054af6dfd87",
+    "seconds": 189.0742857142857,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "45270e449e6b",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\meditativetiger-zen-harmony-tibetan-bowls-ambient-music-384703.mp3",
+    "author_from_filename": "meditativetiger",
+    "sha256": "45270e449e6bb242e9c153efa2fa2c05ec4af1df0e1422b2ffa7a778f4fb30bc",
+    "seconds": 138.42285714285714,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  },
+  {
+    "id": "30fdd5f2a4f8",
+    "file": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV自適應個人化音樂系統\\ACE-Step-1.5\\training\\singing_bowl_new_sources\\manual\\twowolvesreiki-bowl2-319194.mp3",
+    "author_from_filename": "twowolvesreiki",
+    "sha256": "30fdd5f2a4f852a3d0aa9fb6fe5892237b7531a3c949a53a03149b212fb109e7",
+    "seconds": 102.92244897959183,
+    "split": "train",
+    "license": "user-provided; not verified",
+    "human_reviewed": false
+  }
+]

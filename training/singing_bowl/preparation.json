@@ -1,0 +1,11 @@
+{
+  "source_recordings": 2,
+  "train_clips": 6,
+  "heldout_clips": 1,
+  "clip_seconds": 20,
+  "sample_rate": 48000,
+  "rejected_windows": [],
+  "purpose": "small timbre pilot, not a full music performance corpus",
+  "source_quality": "lossy public HQ MP3 previews",
+  "human_listening_review": false
+}

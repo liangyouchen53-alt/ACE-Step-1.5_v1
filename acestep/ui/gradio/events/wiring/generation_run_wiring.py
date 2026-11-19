@@ -44,7 +44,20 @@ def register_generation_run_handlers(context: GenerationWiringContext) -> None:
 
         yield from res_h.generate_with_batch_management(dit_handler, llm_handler, *args)
 
-    generation_section["generate_btn"].click(
+    quick_event = generation_section.get("quick_generate_event")
+    starts = [generation_section["generate_btn"].click]
+    if quick_event is not None:
+        starts.append(quick_event.success)
+    for start in starts:
+        _register_chain(start, generation_wrapper, context)
+
+
+def _register_chain(start, generation_wrapper, context):
+    """Share one inference chain across quick and advanced generation controls."""
+    generation_section = context.generation_section
+    results_section = context.results_section
+    dit_handler, llm_handler = context.dit_handler, context.llm_handler
+    start(
         fn=res_h.clear_audio_outputs_for_new_generation,
         outputs=[
             results_section["generated_audio_1"],
@@ -57,7 +70,7 @@ def register_generation_run_handlers(context: GenerationWiringContext) -> None:
             results_section["generated_audio_8"],
             results_section["generated_audio_batch"],
         ],
-    ).then(
+    ).success(
         fn=generation_wrapper,
         inputs=[
             generation_section["captions"],

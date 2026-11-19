@@ -986,6 +986,8 @@ def generate_music(
             audio_params["use_lora"] = dit_handler.use_lora
             audio_params["lora_scale"] = dit_handler.lora_scale
             audio_params["lora_weights_hash"] = get_lora_weights_hash(dit_handler)
+            audio_params["active_adapter_name"] = getattr(dit_handler, "_lora_active_adapter", None)
+            audio_params["quick_adapter_path"] = getattr(dit_handler, "quick_adapter_path", None)
             audio_params["audio_format"] = audio_format
             if audio_format == "mp3":
                 audio_params["mp3_bitrate"] = getattr(config, "mp3_bitrate", "128k")

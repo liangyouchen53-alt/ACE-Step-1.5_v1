@@ -1,0 +1,21 @@
+{
+  "recordings": 16,
+  "recording_splits": {
+    "train": 13,
+    "heldout": 3
+  },
+  "clips": 105,
+  "clip_splits": {
+    "train": 93,
+    "heldout": 12
+  },
+  "train_dataset_clips": {
+    "MAESTRO v3": 24,
+    "SMD v2": 53,
+    "Open Goldberg Variations": 16
+  },
+  "clip_seconds": 20,
+  "new_download_bytes": 673433779,
+  "training_minutes": 31.0,
+  "valid_audio": true
+}

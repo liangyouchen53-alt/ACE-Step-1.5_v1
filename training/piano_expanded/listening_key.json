@@ -1,0 +1,32 @@
+[
+  {
+    "label": "20261117-A",
+    "model": "pilot",
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\piano_expanded_comparison\\pilot\\20261117\\a854a00b-e788-b629-8009-28ef0ea43182.flac"
+  },
+  {
+    "label": "20261117-B",
+    "model": "expanded",
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\piano_expanded_comparison\\expanded\\20261117\\d538b5f9-0750-4ebe-9935-4ec5c1ee5f26.flac"
+  },
+  {
+    "label": "20261117-C",
+    "model": "original",
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\piano_expanded_comparison\\original\\20261117\\fa311282-6851-ce0e-b38a-ac9ab3ba6278.flac"
+  },
+  {
+    "label": "20261118-A",
+    "model": "pilot",
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\piano_expanded_comparison\\pilot\\20261118\\5b93692b-ef16-701d-6baa-85c2071deeb7.flac"
+  },
+  {
+    "label": "20261118-B",
+    "model": "original",
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\piano_expanded_comparison\\original\\20261118\\f76a63f3-53e1-d119-0237-1c199400e8ef.flac"
+  },
+  {
+    "label": "20261118-C",
+    "model": "expanded",
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\piano_expanded_comparison\\expanded\\20261118\\34eb93f3-11c6-1801-a673-fb0b55cc555f.flac"
+  }
+]

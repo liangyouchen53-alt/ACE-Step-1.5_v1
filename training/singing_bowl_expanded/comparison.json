@@ -1,0 +1,68 @@
+[
+  {
+    "model": "original",
+    "seed": 20261117,
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\model_tests\\singing_bowl_comparison\\original\\20261117\\44f21024-38b1-d4cd-6924-a96235078632.flac",
+    "seconds": 30.0,
+    "sample_rate": 48000,
+    "peak": 0.891265869140625,
+    "finite": true,
+    "rms": 0.10809822194052546,
+    "tail_peak": 0.0
+  },
+  {
+    "model": "original",
+    "seed": 20261118,
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\model_tests\\singing_bowl_comparison\\original\\20261118\\01924bd7-5f31-1d8c-3225-7cfa17b353cf.flac",
+    "seconds": 30.0,
+    "sample_rate": 48000,
+    "peak": 0.891265869140625,
+    "finite": true,
+    "rms": 0.1346193916509537,
+    "tail_peak": 0.0
+  },
+  {
+    "model": "pilot",
+    "seed": 20261117,
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\model_tests\\singing_bowl_comparison\\pilot\\20261117\\a50a4179-b9eb-0683-9bb6-98f025589508.flac",
+    "seconds": 30.0,
+    "sample_rate": 48000,
+    "peak": 0.891265869140625,
+    "finite": true,
+    "rms": 0.10782151812103051,
+    "tail_peak": 0.0
+  },
+  {
+    "model": "pilot",
+    "seed": 20261118,
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\model_tests\\singing_bowl_comparison\\pilot\\20261118\\89c1cb7d-2ab2-dd98-ead0-47727dc1a143.flac",
+    "seconds": 30.0,
+    "sample_rate": 48000,
+    "peak": 0.891265869140625,
+    "finite": true,
+    "rms": 0.1346240123267673,
+    "tail_peak": 0.0
+  },
+  {
+    "model": "expanded",
+    "seed": 20261117,
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\model_tests\\singing_bowl_comparison\\expanded\\20261117\\0bb5293e-9e68-56c4-316c-6ae85cd403a5.flac",
+    "seconds": 30.0,
+    "sample_rate": 48000,
+    "peak": 0.891265869140625,
+    "finite": true,
+    "rms": 0.10052219101348431,
+    "tail_peak": 0.0
+  },
+  {
+    "model": "expanded",
+    "seed": 20261118,
+    "path": "C:\\Users\\tt\\Documents\\ChatGPT\\HRV\u81ea\u9069\u61c9\u500b\u4eba\u5316\u97f3\u6a02\u7cfb\u7d71\\ACE-Step-1.5\\gradio_outputs\\model_tests\\singing_bowl_comparison\\expanded\\20261118\\6e5c6410-c887-2508-0b6c-4333bf40a78e.flac",
+    "seconds": 30.0,
+    "sample_rate": 48000,
+    "peak": 0.891265869140625,
+    "finite": true,
+    "rms": 0.1364562112251782,
+    "tail_peak": 0.0
+  }
+]

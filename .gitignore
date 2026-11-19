@@ -252,6 +252,35 @@ lokr_output/
 config.json
 
 acestep_output/
+
+# Local machine caches, generated audio, and runtime logs
+.hf-cache/
+.cache/
+.uv-cache/
+.python/
+outputs/
+local_ui.*
+local_smoke_test.log
+sidestep.log
+
+# Personal training artifacts are kept locally; commit scripts and documentation only
+training/**/raw/
+training/**/sources/
+training/**/OpenGoldberg_CC0/
+training/**/clips/
+training/**/tensors/
+training/**/checkpoints/
+training/**/lora/
+training/**/manual/
+training/**/*.pt
+training/**/*.pth
+training/**/*.safetensors
+training/**/*.flac
+training/**/*.wav
+training/**/*.mp3
+training/**/*.ogg
+training/**/*.npy
+training/**/*.npz
 # macOS
 .DS_Store
 
@@ -261,3 +290,6 @@ docs/.vitepress/dist/
 docs/.vitepress/cache/
 docs/en/awesome.md
 package-lock.json
+
+training/**/*.html
+training/**/*.png

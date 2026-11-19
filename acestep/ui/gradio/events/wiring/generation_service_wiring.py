@@ -30,11 +30,12 @@ def register_generation_service_handlers(
     dataset_handler = context.dataset_handler
 
     # ========== Dataset Handlers ==========
-    dataset_section["import_dataset_btn"].click(
-        fn=dataset_handler.import_dataset,
-        inputs=[dataset_section["dataset_type"]],
-        outputs=[dataset_section["data_status"]],
-    )
+    if dataset_section:
+        dataset_section["import_dataset_btn"].click(
+            fn=dataset_handler.import_dataset,
+            inputs=[dataset_section["dataset_type"]],
+            outputs=[dataset_section["data_status"]],
+        )
 
     # ========== Service Initialization ==========
     generation_section["refresh_btn"].click(

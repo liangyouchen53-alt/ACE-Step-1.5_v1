@@ -1,0 +1,27 @@
+{
+  "source_recordings": 22,
+  "train_clips": 188,
+  "heldout_clips": 6,
+  "clip_seconds": 20,
+  "sample_rate": 48000,
+  "excluded": [
+    {
+      "file": "boopul-misty-dawn-singing-bowls-amp-sitar-anxiety-relief-music-538675.mp3",
+      "reason": "sitar"
+    },
+    {
+      "file": "juliush-tibetan-singing-bowl-amp-handpan-meditation-music-587272.mp3",
+      "reason": "handpan"
+    },
+    {
+      "file": "twowolvesreiki-crystal-singing-bowl-281251.mp3",
+      "reason": "crystal"
+    },
+    {
+      "file": "twowolvesreiki-small-crystal-singing-bowl-sound-byte-317454.mp3",
+      "reason": "crystal"
+    }
+  ],
+  "human_listening_review": false,
+  "licenses_verified": false
+}
